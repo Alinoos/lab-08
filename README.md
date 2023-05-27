@@ -5,7 +5,7 @@
 
 Создадим исполняемые файлы для лабораторной работы. Они будут в отдельных папках, которые затем будут связаны с помощью `CMakeLists`:
 
-Make `print.hpp`
+Создадим `print.hpp`
 
 ```
 $ mkdir include
@@ -22,7 +22,7 @@ $ cd include
 void print(const std::string& text, std::ofstream& out);
 void print(const std::string& text, std::ostream& out = std::cout);
 ```
-СОздадим `print.cpp`
+Создадим `print.cpp`
 ```
 $ mkdir source
 $ cd source
